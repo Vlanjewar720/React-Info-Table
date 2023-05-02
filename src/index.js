@@ -1,17 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// table info componentes
+// import App from './App';
+//full stack website components
+// import Regf from "./component/Regf";
+// import Login from "./component/Login";
+// import Aboutus from "./component/Aboutus";
+// import Servises from "./component/Servises";
+// import Contactus from "./component/Contactus";
+
+// import Formvalidation from "./component/Formvalidation";
+import Form from "./Myforms/Form";
+// import Navbarcomp from "./Myrouter/Navbarcomp";
+// import Calsi from "./mycalculation/Calsi";
+// import Mainparent from "./propscomponent/Main_parent";
+// import Calculation from "./mycalculation/Calculation ";
+
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+
+    {/* <App /> */}
+    {/* <Regf/>
+    <Login/>
+    <Aboutus/>
+    <Servises/>
+    <Contactus/> */}
+
+    {/* <Calculation/>  */}
+    {/* <Formvalidation/> */}
+
+    <Form />
+    {/* <Calsi /> */}
+
+    {/* <Mainparent /> */}
+    {/* <Navbarcomp /> */}
+      
+  </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
